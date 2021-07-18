@@ -1,0 +1,35 @@
+import java.util.*; 
+ class Solution
+ {
+ 	 public static void main(String args[]) 
+ 	 { 
+ 	 Vector v=new Vector();
+ 	  Scanner sc=new Scanner(System.in); int n=6;
+ 	   v.add(101); 
+ 	   v.add("Rama"); 
+ 	   v.add(6.58); 
+ 	   v.add(102); 
+ 	   v.add("Gita"); 
+ 	   v.add(8.98);
+ 	   System.out.println(v);
+ 	   String s="Gita";
+ 	   if(v.contains(s))
+ 	   {
+ 	  int del=v.indexOf(s);
+ 	  v.remove(del);
+ 	 System.out.println(v);
+ 	 v.remove(2);
+ 	 v.add(2,9.17);
+ 	 System.out.println(v+" ");
+ 	 String S="Sita";
+ 	 if(v.contains(S))
+ 	 {
+ 	   System.out.println("found");
+ 	   }
+ 	   else
+ 	   {
+ 	   System.out.println("false");
+ 	   }
+ 	   }
+ 	   } 
+ 	   }
